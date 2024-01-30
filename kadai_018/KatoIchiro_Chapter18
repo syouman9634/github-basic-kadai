@@ -1,0 +1,23 @@
+package kadai_018;
+
+public class KatoIchiro_Chapter18 extends Kato_Chapter18{
+	
+	
+	public void setGivenName()
+	{
+		String givenName = "一郎";
+		System.out.println("名前は加藤"+givenName+"です");
+	}
+	
+	public void eachIntroduce()
+	{
+		String each = "すきな食べ物はリンゴです";
+	}
+	
+	public void execIntroduce()
+	{
+		System.out.println("住所は"+address+"です");
+		System.out.println("好きな食べ物はリンゴです");
+	}
+
+}
