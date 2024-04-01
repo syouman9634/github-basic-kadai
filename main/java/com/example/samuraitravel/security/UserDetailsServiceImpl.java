@@ -30,6 +30,7 @@ import com.example.samuraitravel.repository.UserRepository;
              authorities.add(new SimpleGrantedAuthority(userRoleName));
              return new UserDetailsImpl(user, authorities);
          } catch (Exception e) {
+             e.printStackTrace();  // スタックトレースを出力する
              throw new UsernameNotFoundException("ユーザーが見つかりませんでした。");
          }
      }   

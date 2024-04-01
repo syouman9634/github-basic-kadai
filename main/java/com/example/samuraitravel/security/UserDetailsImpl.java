@@ -61,4 +61,7 @@ import com.example.samuraitravel.entity.User;
      public boolean isEnabled() {
          return user.getEnabled();
      }
+     
+     
+     
 }
